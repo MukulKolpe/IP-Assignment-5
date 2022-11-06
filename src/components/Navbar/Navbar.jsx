@@ -48,16 +48,6 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <li>
-              <Link
-                to="/achievements"
-                aria-label="About us"
-                title="About us"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Achievements
-              </Link>
-            </li>
           </ul>
           <div className="lg:hidden">
             <button
@@ -143,16 +133,6 @@ const Navbar = () => {
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Projects
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/achievements"
-                          aria-label="About us"
-                          title="About us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Achievements
                         </Link>
                       </li>
                     </ul>
